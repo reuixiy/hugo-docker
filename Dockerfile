@@ -1,3 +1,5 @@
-FROM archlinux
+FROM node:alpine
 
-RUN pacman -Syu --noconfirm git hugo nodejs npm
+RUN apk update
+
+RUN apk add git hugo

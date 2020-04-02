@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:10.19.0-alpine
 
 RUN apk update
 

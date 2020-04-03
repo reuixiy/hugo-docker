@@ -1,5 +1,3 @@
-FROM node:10.19.0-alpine
+FROM archlinux
 
-RUN apk update
-
-RUN apk add git hugo python3
+RUN pacman -Syu --noconfirm git hugo nodejs npm python
